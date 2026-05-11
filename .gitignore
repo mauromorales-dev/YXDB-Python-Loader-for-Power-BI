@@ -1,0 +1,24 @@
+echo "# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Connector build
+bin/
+*.mez
+
+# Datos sensibles
+*.yxdb
+tests/*.yxdb
+*.arrow
+*.parquet
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS
+Thumbs.db
+.DS_Store" > .gitignore

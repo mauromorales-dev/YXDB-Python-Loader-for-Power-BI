@@ -1,0 +1,4 @@
+echo "yxdb>=1.1.1
+polars>=0.20.0
+pyarrow>=14.0.0
+faker>=18.0.0" > requirements.txt
